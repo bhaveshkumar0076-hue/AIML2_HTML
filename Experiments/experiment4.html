@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <h1>Hotel Room Booking Form</h1>
+    <form action="./response.html" method="get">
+        <label for="name">FullName:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+
+        <label for="tel">Phone:</label>
+        <input type="tel" name="tel" id="tel" placeholder="Enter your phone number"><br><br>
+
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" name="checkin" id="checkin"><br><br>
+
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" name="checkout" id="checkout"><br><br>
+
+        <label for="roomtype">Room Type:</label>
+        <select name="roomtype" id="roomtype">
+            <option value="">Select</option>
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+        </select><br><br>
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" name="guests" id="guests" min="1" max="4"><br><br>
+        
+        <label for="specialrequests">Special Requests:</label>  <br>
+        <textarea name="specialrequests" id="specialrequests" placeholder="Enter any special requests"></textarea><br><br> 
+
+        <input type="submit">
+        <input type="reset">
+        </fieldset>
+</body>
+</html>
